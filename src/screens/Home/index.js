@@ -5,6 +5,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import { colors } from '../../Constants/theme';
 export default  ({ navigation }) => {
   const pan = useRef(new Animated.ValueXY()).current;
+  const rot = useRef(new Animated.Value()).current;
   let firstProgressLayerStyle,percent = 10;
   const panResponder = useRef(
     PanResponder.create({
