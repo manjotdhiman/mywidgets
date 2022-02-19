@@ -15,8 +15,9 @@ const styles = StyleSheet.create({
         height: 50,
         alignItems:"center",
         justifyContent:"center",
-        backgroundColor: colors.secondaryColor,
+        backgroundColor: "orange",
        bottom:0,
+       margin:5
     },
     buttonText:{
         color:colors.textButtonColor,

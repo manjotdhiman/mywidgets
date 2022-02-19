@@ -13,7 +13,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { colors } from './src/Constants/theme';
-
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 const App = () => {
   
