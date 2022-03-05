@@ -1,4 +1,4 @@
-# Mywidgets RN
+# Mywidgets React native knob and pyramid input
  What is included
  * A knob like component to adjust the value using the slider given below
  * A Pyramid type value picker 
